@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users/cparker/Library/Arduino15/packages/esp8266/tools/**",
+                "/Users/cparker/Library/Arduino15/packages/esp8266/hardware/esp8266/2.6.3/**",
+                "/Users/cparker/Library/Arduino15/packages/esp32/tools/**",
+                "/Users/cparker/Library/Arduino15/packages/esp32/hardware/esp32/1.0.4/**",
+                "/Users/cparker/Documents/Arduino/libraries/MPU6050/src",
+                "/Applications/Arduino.app/Contents/Java/libraries/Servo/src",
+                "/Applications/Arduino.app//Contents/Java/hardware/tools/avr/avr/include",
+                "/Users/cparker/Documents/Arduino/libraries/FastLED",
+                "/Applications/Arduino.app/Contents/Java/tools/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
+                "/Users/cparker/Library/Arduino15/packages/arduino/hardware/avr/1.8.2/**",
+                "/Users/cparker/Library/Arduino15/packages/arduino/tools/**"
+            ],
+            "browse": {
+                "path": [
+                    "/Users/cparker/Documents/Arduino/libraries",
+                    "/Users/cparker/Documents/Arduino/libraries/FastLED",
+                    "/Users/cparker/Documents/Arduino/libraries/FastLED/platforms/arm",
+                    "/Users/cparker/Library/Arduino15"
+                ]
+            },
+            "forcedInclude": [
+                "${workspaceFolder}/vscode-fake.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "/Users/cparker/Library/Arduino15/packages/arduino/hardware/avr/1.8.2/cores/arduino/Arduino.h"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/local/bin/gcc-8",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON"
+            ]
+        }
+    ],
+    "version": 4
+}
